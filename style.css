@@ -1,0 +1,34 @@
+*{
+    margin: 2px;
+    font: bold 14px Arial, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+
+#calculator{
+    width: 340px;
+    height: 200px;
+    border: 5px solid salmon;
+}
+#screen{
+    height: fit-content;
+    background-color: rgb(199, 185, 166);
+}
+#clear{
+    height: 40px;
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.number, .operator{
+    height: 2em;
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.operators .operator{
+    width: 1000px;
+}
+
+.number:active,.operator:active, #clear:active{
+    background-color: rgb(243, 205, 156);
+}
